@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-color: mediumpurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    background-color: whitesmoke;
+    width: 300px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.boxes{
+    margin-bottom: 20px;
+}
+
+#btn{
+    width: 280px;
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(29, 93, 136);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#text{
+    width: 260px;
+    padding: 8px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+}
+
+h2{
+    margin-bottom: 12px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.footer{
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(43, 43, 112);
+    color: white;
+    padding: 6px;
+}
+
+.QR_code{
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
